@@ -90,7 +90,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.active_record.dump_schema_after_migration = false
-  config.assets.initialize_on_precompile = false
+  
   config.action_mailer.default_url_options = { host: 'https://quiet-coast-53432.herokuapp.com' }
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
