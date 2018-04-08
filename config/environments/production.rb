@@ -100,7 +100,7 @@ Rails.application.configure do
      :port => 587,
      :authentication => :plain,   # I've also tried :login
      :enable_starttls_auto => true,  # Also tried tls => true
-     :user_name => 'prodobro111@gmail.com',
-     :password => 'pro12345678'
+     :user_name => ENV["GMAIL_USERNAME"],
+     :password => ENV["GMAIL_PASSWORD"]
  }
 end
